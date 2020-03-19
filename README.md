@@ -1,10 +1,8 @@
 # ふっけの技術ブログ
-> https://gitpress.io/@fukke0906/
 
-### GitPress Boilerplate
+!['スクリーンショット'](./images/screenshot.png)
 
-Fork me to start using [GitPress](https://gitpress.io)
+<p align='center' target="_blank">URL:  https://gitpress.io/@fukke0906/ </p>
 
-Posts are placed in `/source` folder, so fill the directory with `/source`
-
-![](https://github.com/gitpress-io/boilerplate/blob/master/screenshot.jpg)
+## Description
+技術的に気になったことを書きます.  
