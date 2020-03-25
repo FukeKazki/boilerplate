@@ -5,7 +5,7 @@
 - [競プロ日記 ABC159](2020-03-23)
 - [Kaggle 住宅価格予測 単回帰分析してみる](2020-03-17)
 - [単回帰分析のFlow](2020-03-15)
-- [React Native Styleをいい感じに](2020-03-11d)
+- [React Native Styleをいい感じに](2020-03-11)
 - [React Movie Search を TS で.](2020-03-08)
 - [useRefの使い方がわからん](2020-03-04)
 - [Heroku PostgreSQL の使い方](2020-02-28)
