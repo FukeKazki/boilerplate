@@ -19,6 +19,8 @@ jobs:
                 git config --local user.name FukeKazki
             - name: Commit files
               run: |
-                git add .
-                git commit -m "Automation: format file"
-                git push origin master
+                if (git diff --shortstat | grep '[0-9]'); then \
+                    git add .; \
+                    git commit -m "Automation: format file"; \
+                    git push origin master; \
+                fi
