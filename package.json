@@ -1,7 +1,10 @@
 {
-  "name": "TechBlog",
+  "name": "tech-blog",
   "version": "1.0.0",
-  "main": "index.js",
+  "scripts": {
+      "format": "deno fmt",
+      "textlint": "./node_modules/.bin/textlint"
+  },
   "repository": "https://github.com/FukeKazki/TechBlog.git",
   "author": "FukeKazki <kazkichi0906@gmail.com>",
   "license": "MIT",
