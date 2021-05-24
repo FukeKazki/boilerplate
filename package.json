@@ -2,8 +2,8 @@
   "name": "tech-blog",
   "version": "1.0.0",
   "scripts": {
-      "format": "deno fmt",
-      "textlint": "./node_modules/.bin/textlint"
+    "format": "deno fmt",
+    "textlint": "./node_modules/.bin/textlint"
   },
   "repository": "https://github.com/FukeKazki/TechBlog.git",
   "author": "FukeKazki <kazkichi0906@gmail.com>",
