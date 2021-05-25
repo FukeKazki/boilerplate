@@ -6,7 +6,7 @@ jobs:
     format:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@master
+            - uses: actions/checkout@v2
             - uses: denoland/setup-deno@main
               with:
                 deno-version: "1.9.2"
@@ -22,5 +22,5 @@ jobs:
                 if (git diff --shortstat | grep '[0-9]'); then \
                     git add .; \
                     git commit -m "Automation: format file"; \
-                    git push origin master; \
+                    git push; \
                 fi
