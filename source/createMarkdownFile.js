@@ -153,7 +153,7 @@ var execAsync = function (command) {
   return new Promise(function (resolve, reject) {
     child_process_1.exec(
       command,
-      (function (error, stdout, stderr) {
+      function (error, stdout, stderr) {
         if (error) {
           reject(error);
         }
@@ -161,7 +161,7 @@ var execAsync = function (command) {
           reject(stderr);
         }
         resolve(stdout);
-      }),
+      },
     );
   });
 };
@@ -202,4 +202,4 @@ var execAsync = function (command) {
       }
     });
   });
-}());
+})();
