@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "format": "deno fmt",
-    "textlint": "./node_modules/.bin/textlint",
+    "textlint": "textlint",
     "prepare": "git config --local core.hooksPath .githooks"
   },
   "repository": "https://github.com/FukeKazki/TechBlog.git",
