@@ -1,5 +1,5 @@
 {
-    "*.{md}": [
+    "*.{md, ts}": [
         "deno fmt",
         "textlint"
     ]
