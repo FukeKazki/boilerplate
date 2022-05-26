@@ -8,8 +8,8 @@ end_of_line = lf
 # インデントのスタイルを設定(space / tab)
 indent_style = space
 # インデントのサイズを設定
-indent_size = 4
+indent_size = 2
 # tabのサイズを設定
-tab_width = 4
+tab_width = 2
 # 文末のスペースを削除するかの設定
 trim_trailing_whitespace = true
