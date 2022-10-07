@@ -11,8 +11,27 @@ date: ${format(now, "yyyy-MM-dd")}
 tags: []
 ---`;
 
+const dailyTemplate = `---
+title: ''
+date: ${format(now, "yyyy-MM-dd")}
+tags: []
+---
+
+# 読んだ記事
+
+# やったこと
+
+# わかったこと
+
+`
+
 try {
-  await Deno.writeTextFile(path, template);
+  if (type === 'daily') {
+      await Deno.writeTextFile(path, dailyTemplate);
+  } else {
+      await Deno.writeTextFile(path, template);
+  }
+ 
   console.log("ファイルを作成しました", path);
 } catch (err) {
   console.error("ファイルの作成に失敗しました。", err);
